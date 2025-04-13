@@ -1,0 +1,36 @@
+/* style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+#total {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
